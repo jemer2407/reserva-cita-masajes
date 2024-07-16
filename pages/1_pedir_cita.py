@@ -4,9 +4,14 @@ import uuid
 import datetime as dt
 import numpy as np
 from datetime import datetime
-from app.google_sheets import GoogleSheets
-from app.google_calendar import GoogleCalendar
-from app.send_email import send_email
+from ..google_sheets import GoogleSheets
+from ..google_calendar import GoogleCalendar
+from ..send_email import send_email
+
+
+#from app.google_sheets import GoogleSheets
+#from app.google_calendar import GoogleCalendar
+#from app.send_email import send_email
 
 ## FUNCIONES
 def sumar_una_hora(hora_str):
