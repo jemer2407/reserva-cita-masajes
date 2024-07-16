@@ -4,9 +4,13 @@ import uuid
 import datetime as dt
 import numpy as np
 from datetime import datetime
-from ..google_sheets import GoogleSheets
-from ..google_calendar import GoogleCalendar
-from ..send_email import send_email
+from send_email import send_email # type: ignore
+from google_sheets import GoogleSheets # type: ignore
+from google_calendar import GoogleCalendar # type: ignore
+
+#from ..google_sheets import GoogleSheets
+#from ..google_calendar import GoogleCalendar
+#from ..send_email import send_email
 
 
 #from app.google_sheets import GoogleSheets
