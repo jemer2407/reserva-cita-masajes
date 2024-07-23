@@ -44,9 +44,6 @@ def formatocorreo(correo):
 ## VARIABLES
 document = "bbdd-citas-masajes"
 sheet_citas = "citas"
-sheet_masajistas = "masajistas"
-sheet_servicios = "servicios"
-sheet_horario = "horario"
 credentials = st.secrets["google"]["credentials_google"]
 
 idcalendar1 = 'jesusmerc2407@gmail.com'
